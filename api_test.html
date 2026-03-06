@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SignalDrop AI - API Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .test { margin: 20px 0; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+        .success { background-color: #d4edda; border-color: #c3e6cb; }
+        .error { background-color: #f8d7da; border-color: #f5c6cb; }
+        .loading { background-color: #fff3cd; border-color: #ffeaa7; }
+    </style>
+</head>
+<body>
+    <h1>SignalDrop AI - API Connectivity Test</h1>
+    
+    <div id="health-test" class="test loading">
+        <h3>Backend Health Test</h3>
+        <div id="health-result">Testing...</div>
+    </div>
+    
+    <div id="students-test" class="test loading">
+        <h3>Students Endpoint Test</h3>
+        <div id="students-result">Testing...</div>
+    </div>
+    
+    <div id="student-detail-test" class="test loading">
+        <h3>Student Detail Test</h3>
+        <div id="student-detail-result">Testing...</div>
+    </div>
+
+    <script>
+        async function testAPI() {
+            const API_BASE = 'http://localhost:8001';
+            
+            // Test health endpoint
+            try {
+                const response = await fetch(`${API_BASE}/api/health`);
+                const data = await response.json();
+                const healthDiv = document.getElementById('health-test');
+                const healthResult = document.getElementById('health-result');
+                
+                if (response.ok) {
+                    healthDiv.className = 'test success';
+                    healthResult.innerHTML = `
+                        <strong>✅ Backend is healthy!</strong><br>
+                        Status: ${data.status}<br>
+                        Students Analyzed: ${data.students_analyzed}<br>
+                        Data Loaded: ${data.data_loaded}
+                    `;
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                const healthDiv = document.getElementById('health-test');
+                const healthResult = document.getElementById('health-result');
+                healthDiv.className = 'test error';
+                healthResult.innerHTML = `<strong>❌ Health check failed:</strong> ${error.message}`;
+            }
+            
+            // Test students endpoint
+            try {
+                const response = await fetch(`${API_BASE}/api/students`);
+                const students = await response.json();
+                const studentsDiv = document.getElementById('students-test');
+                const studentsResult = document.getElementById('students-result');
+                
+                if (response.ok) {
+                    studentsDiv.className = 'test success';
+                    let studentList = students.map(s => 
+                        `${s.student_id}: ${s.risk_level} risk (${(s.risk_score * 100).toFixed(0)}%)`
+                    ).join('<br>');
+                    studentsResult.innerHTML = `
+                        <strong>✅ Found ${students.length} students:</strong><br>
+                        ${studentList}
+                    `;
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                const studentsDiv = document.getElementById('students-test');
+                const studentsResult = document.getElementById('students-result');
+                studentsDiv.className = 'test error';
+                studentsResult.innerHTML = `<strong>❌ Students endpoint failed:</strong> ${error.message}`;
+            }
+            
+            // Test student detail endpoint
+            try {
+                const response = await fetch(`${API_BASE}/api/student/S2007`);
+                const student = await response.json();
+                const detailDiv = document.getElementById('student-detail-test');
+                const detailResult = document.getElementById('student-detail-result');
+                
+                if (response.ok) {
+                    detailDiv.className = 'test success';
+                    detailResult.innerHTML = `
+                        <strong>✅ Student S2007 Details:</strong><br>
+                        Risk Score: ${(student.risk_score * 100).toFixed(0)}%<br>
+                        Risk Level: ${student.risk_level}<br>
+                        Confidence: ${(student.confidence * 100).toFixed(0)}%<br>
+                        Key Signals: ${student.key_signals.length}<br>
+                        <em>Explanation: ${student.explanation.substring(0, 100)}...</em>
+                    `;
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                const detailDiv = document.getElementById('student-detail-test');
+                const detailResult = document.getElementById('student-detail-result');
+                detailDiv.className = 'test error';
+                detailResult.innerHTML = `<strong>❌ Student detail failed:</strong> ${error.message}`;
+            }
+        }
+        
+        // Run tests when page loads
+        window.addEventListener('load', testAPI);
+    </script>
+</body>
+</html>

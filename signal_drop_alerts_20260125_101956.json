@@ -1,0 +1,1016 @@
+[
+  {
+    "student_id": "S1005",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Low recent attendance rate (50%)",
+      "Low sentiment ratio in communications"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: low recent attendance rate (50%), low sentiment ratio in communications. These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.4623870149911817,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.224509",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.7611111111111111,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 0.75,
+          "uncertainty_level": "medium",
+          "missing_sources": [
+            "assignments"
+          ]
+        },
+        "temporal_recency": {
+          "score": 0.9333333333333332,
+          "uncertainty_level": "low",
+          "oldest_data_days": 12
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Mixed risk signals across domains",
+            "Risk concentrated in single domain"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Analysis based on 3/4 data sources",
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1006",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "High recent late submission rate (100%)",
+      "Low recent attendance rate (50%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: high recent late submission rate (100%), low recent attendance rate (50%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.44437131734006735,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.224937",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.8333333333333334,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 0.9,
+          "uncertainty_level": "low",
+          "oldest_data_days": 20
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Multiple weak signals detected",
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1009",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Low sentiment ratio in communications",
+      "Low recent attendance rate (40%)",
+      "High recent late submission rate (100%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: low sentiment ratio in communications, low recent attendance rate (40%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.56,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.225252",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.7833333333333333,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 0.75,
+          "uncertainty_level": "medium",
+          "missing_sources": [
+            "lms_activity"
+          ]
+        },
+        "temporal_recency": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "oldest_data_days": 3
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Analysis based on 3/4 data sources",
+      "Limited activity history for reliable pattern detection",
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1012",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Low sentiment ratio in communications",
+      "High recent late submission rate (75%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: low sentiment ratio in communications, high recent late submission rate (75%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.4619444444444445,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.225548",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.8666666666666667,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "oldest_data_days": 4
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": []
+        }
+      }
+    },
+    "actionable_insights": [
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1002",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Low recent attendance rate (50%)",
+      "High recent late submission rate (100%)",
+      "Low sentiment ratio in communications"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: low recent attendance rate (50%), high recent late submission rate (100%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.51,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.225830",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.7611111111111111,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 0.75,
+          "uncertainty_level": "medium",
+          "missing_sources": [
+            "lms_activity"
+          ]
+        },
+        "temporal_recency": {
+          "score": 0.9333333333333332,
+          "uncertainty_level": "low",
+          "oldest_data_days": 13
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Analysis based on 3/4 data sources",
+      "Limited activity history for reliable pattern detection",
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1016",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Negative sentiment shift in messages",
+      "Low recent attendance rate (30%)",
+      "High recent late submission rate (60%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: negative sentiment shift in messages, low recent attendance rate (30%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.4726606788548753,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.226118",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.8666666666666667,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "oldest_data_days": 2
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1018",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Low recent attendance rate (50%)",
+      "Negative sentiment shift in messages",
+      "Decline in LMS activity over 14 days (59% drop)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: low recent attendance rate (50%), negative sentiment shift in messages. These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.4555988967691095,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.226390",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.7833333333333333,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 0.75,
+          "uncertainty_level": "medium",
+          "missing_sources": [
+            "assignments"
+          ]
+        },
+        "temporal_recency": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "oldest_data_days": 5
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Multiple weak signals detected",
+            "Mixed risk signals across domains",
+            "Risk concentrated in single domain"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Analysis based on 3/4 data sources",
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1008",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Very low LMS activity (0 sessions in 7 days)",
+      "Low recent attendance rate (60%)",
+      "High recent late submission rate (100%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: very low lms activity (0 sessions in 7 days), low recent attendance rate (60%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.5804545454545454,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.226659",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.85,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 0.95,
+          "uncertainty_level": "low",
+          "oldest_data_days": 13
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1013",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "High recent late submission rate (100%)",
+      "Low recent attendance rate (60%)",
+      "Low sentiment ratio in communications"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: high recent late submission rate (100%), low recent attendance rate (60%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.45482142857142854,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.226923",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.8666666666666667,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "oldest_data_days": 2
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Mixed risk signals across domains",
+            "Risk concentrated in single domain"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1000",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Negative sentiment shift in messages",
+      "Low recent attendance rate (60%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: negative sentiment shift in messages, low recent attendance rate (60%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.48682692307692305,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.227181",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.7833333333333333,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 0.75,
+          "uncertainty_level": "medium",
+          "missing_sources": [
+            "assignments"
+          ]
+        },
+        "temporal_recency": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "oldest_data_days": 2
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Analysis based on 3/4 data sources",
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1019",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Very low LMS activity (0 sessions in 7 days)",
+      "Low recent attendance rate (20%)",
+      "High recent late submission rate (100%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: very low lms activity (0 sessions in 7 days), low recent attendance rate (20%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.6133333333333334,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.227444",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.7416666666666667,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 0.625,
+          "uncertainty_level": "medium",
+          "oldest_data_days": 41
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Limited activity history for reliable pattern detection",
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1010",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "High recent late submission rate (80%)",
+      "Very low LMS activity (2 sessions in 7 days)",
+      "Low recent attendance rate (70%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: high recent late submission rate (80%), very low lms activity (2 sessions in 7 days). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.40817460317460313,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.227707",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.8666666666666667,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "oldest_data_days": 5
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Multiple weak signals detected"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1001",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Low sentiment ratio in communications",
+      "Low recent attendance rate (70%)",
+      "High recent late submission rate (100%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: low sentiment ratio in communications, low recent attendance rate (70%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.56,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.227961",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.7388888888888889,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 0.75,
+          "uncertainty_level": "medium",
+          "missing_sources": [
+            "lms_activity"
+          ]
+        },
+        "temporal_recency": {
+          "score": 0.8666666666666667,
+          "uncertainty_level": "low",
+          "oldest_data_days": 26
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Analysis based on 3/4 data sources",
+      "Limited activity history for reliable pattern detection",
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1017",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Low recent attendance rate (30%)",
+      "High recent late submission rate (100%)",
+      "Low sentiment ratio in communications"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: low recent attendance rate (30%), high recent late submission rate (100%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.44330793599237667,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.228226",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.85,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 0.95,
+          "uncertainty_level": "low",
+          "oldest_data_days": 8
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Multiple weak signals detected",
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1015",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Low sentiment ratio in communications",
+      "Low recent attendance rate (60%)",
+      "High recent late submission rate (100%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: low sentiment ratio in communications, low recent attendance rate (60%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.4809187610229277,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.228492",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.85,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 0.95,
+          "uncertainty_level": "low",
+          "oldest_data_days": 8
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Multiple weak signals detected",
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Limited activity history for reliable pattern detection",
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1004",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Low sentiment ratio in communications",
+      "High recent late submission rate (100%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: low sentiment ratio in communications, high recent late submission rate (100%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.5139015151515152,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.228751",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.8666666666666667,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "oldest_data_days": 2
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1011",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Low recent attendance rate (60%)",
+      "Low sentiment ratio in communications",
+      "High recent late submission rate (50%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: low recent attendance rate (60%), low sentiment ratio in communications. These patterns suggest low to moderate risk requiring monitoring.",
+    "risk_score": 0.398125,
+    "risk_level": "low",
+    "timestamp": "2026-01-25T10:19:56.229006",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.8333333333333334,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 0.9,
+          "uncertainty_level": "low",
+          "oldest_data_days": 27
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": []
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Continue routine monitoring",
+      "Schedule a supportive conversation"
+    ],
+    "limitations": [
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1014",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Very low LMS activity (0 sessions in 7 days)",
+      "Low sentiment ratio in communications",
+      "Low recent attendance rate (30%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: very low lms activity (0 sessions in 7 days), low sentiment ratio in communications. These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.64,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.229258",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.775,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 0.725,
+          "uncertainty_level": "low",
+          "oldest_data_days": 39
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Limited activity history for reliable pattern detection",
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1003",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Low recent attendance rate (20%)",
+      "High recent late submission rate (100%)"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: low recent attendance rate (20%), high recent late submission rate (100%). These patterns suggest low to moderate risk requiring monitoring.",
+    "risk_score": 0.3773123346560846,
+    "risk_level": "low",
+    "timestamp": "2026-01-25T10:19:56.229521",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.8333333333333334,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 0.9,
+          "uncertainty_level": "low",
+          "oldest_data_days": 19
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Multiple weak signals detected",
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Address any barriers to class participation",
+      "Continue routine monitoring"
+    ],
+    "limitations": [
+      "Limited activity history for reliable pattern detection",
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  },
+  {
+    "student_id": "S1007",
+    "risk_momentum": "stable",
+    "confidence": "medium",
+    "key_signals": [
+      "Very low LMS activity (0 sessions in 7 days)",
+      "High recent late submission rate (100%)",
+      "Low sentiment ratio in communications"
+    ],
+    "explanation": "Several risk indicators suggest emerging disengagement patterns. Key concerns include: very low lms activity (0 sessions in 7 days), high recent late submission rate (100%). These patterns indicate moderate risk that may escalate without attention.",
+    "risk_score": 0.6688381554530424,
+    "risk_level": "medium",
+    "timestamp": "2026-01-25T10:19:56.229775",
+    "uncertainty": {
+      "overall": {
+        "overall_score": 0.8333333333333334,
+        "uncertainty_level": "low",
+        "primary_factors": []
+      },
+      "factors": {
+        "data_completeness": {
+          "score": 1.0,
+          "uncertainty_level": "low",
+          "missing_sources": []
+        },
+        "temporal_recency": {
+          "score": 0.9,
+          "uncertainty_level": "low",
+          "oldest_data_days": 23
+        },
+        "model_confidence": {
+          "score": 0.6,
+          "uncertainty_level": "medium",
+          "confidence_factors": [
+            "Mixed risk signals across domains"
+          ]
+        }
+      }
+    },
+    "actionable_insights": [
+      "Check in during office hours or via email",
+      "Schedule a supportive conversation",
+      "Monitor closely over the next 1-2 weeks"
+    ],
+    "limitations": [
+      "Limited activity history for reliable pattern detection",
+      "Does not account for external factors (personal circumstances, etc.)",
+      "Risk indicators, not definitive predictions"
+    ]
+  }
+]
